@@ -8,7 +8,9 @@ Abstract:
 Engraving a number with a CNC machine can be very usefull for serial procuction. Serial numbers and time/date stamps can be automatically generated for identification purpose.
 It will work with any controller that works with ISO format, ex: FANUC or MAZAK.
 
+
 Important: This macros should be protected with a 8000's or 9000's numbers. Please change the program number.
+
 
 How to use this macro:
 
@@ -38,6 +40,7 @@ V - SPACING(positive-space between number/negative-box lenght)
 
 H - HELP CONTENTS
 
+
 Tips:
 Some controllers demand a H number for a tool lenght offset, you may need to define it before you call the macro.
 
@@ -47,11 +50,13 @@ H1;
 
 G65 P0100 X* Y* Z* W* F* E* Q* R* S* V*;
 
+
 For a serial number you need to create a counter
 
 G65 P0100 X* Y* Z* W* F* E* Q#100 R* S* V* H*;
 
 #100=#100+1;
+
 
 For a time stamp you need the value stored in variable #3011 (HHMMSS format)
 
