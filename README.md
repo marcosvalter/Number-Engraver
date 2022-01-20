@@ -13,17 +13,29 @@ Important: This macros should be protected with a 8000's or 9000's numbers. Plea
 How to use this macro:
 
 G65 P0100 X Y Z W F E Q R S V H
+
 where:
+
 X - X AXIS POSITION
+
 Y - Y AXIS POSITION
+
 Z - Z AXIS FEED PLANE
+
 W - Z AXIS RETRACT
+
 F - FEED PLANE X,Y
+
 E - FEED Z AXIS
+
 Q - NUMBER
+
 R - NUMBER LENGH
+
 S - SCALE
+
 V - SPACING(positive-space between number/negative-box lenght)
+
 H - HELP CONTENTS
 
 Tips:
