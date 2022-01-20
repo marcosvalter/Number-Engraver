@@ -35,8 +35,9 @@ G65 P0100 X* Y* Z* W* F* E* Q* R* S* V*;
 
 For a serial number you need to create a counter
 
-G65 P0100 X* Y* Z* W* F* E* Q#100 R* S* V* H*
-#100=#100+1
+G65 P0100 X* Y* Z* W* F* E* Q#100 R* S* V* H*;
+
+#100=#100+1;
 
 For a time stamp you need the value stored in variable #3011 (HHMMSS format)
 For a time stamp you need the value stored in variable #3012 (YYYYMMDD format)
