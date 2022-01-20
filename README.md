@@ -45,9 +45,15 @@ For a time stamp you need the value stored in variable #3012 (YYYYMMDD format)
 You can use this to isolate the values:
 
 DAY DD #3011-[FIX[#3011/100]*100]
+
 MONTH MM FIX[#3011/100]-[FIX[#3011/10000]*100]
+
 YEAR YYYY FIX[#3011/10000]
+
 YEAR YY FIX[#3011/10000]-[FIX[#3011/1000000]*100]
+
 SECONDS SS #3012-[FIX[#3012/100]*100]
+
 MINUTES MM FIX[#3012/100]-[FIX[#3012/10000]*100]
+
 HOURS HH FIX[#3012/10000]-[FIX[#3012/1000000]*100]
