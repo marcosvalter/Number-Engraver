@@ -30,7 +30,9 @@ Tips:
 Some controllers demand a H number for a tool lenght offset, you may need to define it before you call the macro.
 
 T1 M6;
+
 H1;
+
 G65 P0100 X* Y* Z* W* F* E* Q* R* S* V*;
 
 For a serial number you need to create a counter
